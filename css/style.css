@@ -74,6 +74,12 @@ span {
   width: 60px;
 }
 
+.img-max {
+
+  height: 120px;
+  width: 200px;
+}
+
 .container-full {
   padding-left: 0;
   padding-right: 0;
@@ -561,7 +567,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
     color: #505050;
   font-size: 50px;
   font-weight: 300;
@@ -571,7 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .section-title h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
     color: #505050;
   font-size: 32px;
   font-weight: 300;
@@ -593,6 +599,36 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
+#get-started .section-title2 h2 {
+  font-family: "Open Sans", sans-serif;
+    color: #fff;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#get-started .section-title2 h3 {
+  font-family: "Open Sans", sans-serif;
+    color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+
+#get-started .separator2 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
 /* Get Started Section
 --------------------------------*/
 
@@ -607,7 +643,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #get-started .feature-block {
   background: #4dabff none repeat scroll 0 0;
-  padding: 50px 15px;
+  padding: 50px 20px;
   transition: all 0.5s ease-in-out 0s;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
 }
@@ -648,6 +684,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #get-started .feature-block a:hover {
   color: #b3b3ff;
 }
+
 
 /* About Us Section
 --------------------------------*/
@@ -762,14 +799,19 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #features {
-  background: #cce7ff;
+  background: #ddefff;
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
+#features img {
+  max-width: 100%;
+    max-height: 100%;
+}
+
 #features .feature-block {
-  background: #cce7ff none repeat scroll 0 0;
+  background: #ddefff  none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
