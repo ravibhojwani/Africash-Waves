@@ -637,7 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #get-started {
   background: #4dabff;
   display: inline-block;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
