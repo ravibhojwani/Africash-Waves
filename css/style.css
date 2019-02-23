@@ -57,7 +57,7 @@ li {
 
 p {
   color: #505050;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 2;
@@ -389,7 +389,7 @@ span {
   font-weight: 400;
   font-size: 14px;
   outline: none;
-  letter-spacing: 0;
+  letter-spacing: 1;
   transition: 0.3s;
 }
 
@@ -490,7 +490,7 @@ span {
   width: 100%;
   display: block;
   outline: none;
-  letter-spacing: 0;
+  letter-spacing: 1;
 }
 
 #mobile-nav ul li a:hover {
@@ -691,6 +691,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 #about-us {
   background: #c6ecff;
+  height: 100vh;
 }
 
 #about-us img {
@@ -698,7 +699,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content {
-  padding-top: 30px;
+  padding-top: 80px;
 
 }
 
@@ -730,6 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 #about-us2 {
   background: #b8e4f9;
+  height: 100vh;
 }
 
 #about-us2 img {
@@ -737,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us2 .about-content2 {
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 #about-us2 .about-content2 h2 {
