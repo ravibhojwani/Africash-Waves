@@ -1,1 +1,1 @@
-# site
+https://wavesasset.wordpress.com
